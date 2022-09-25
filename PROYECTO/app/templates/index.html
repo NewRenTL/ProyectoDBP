@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--#Recibo el dato mediante la sintaxis de Jinja2-->
+        <title> {{title}} - MicroBlog</title>
+    </head>
+    <body>
+        <!--Usando la sintaxis de Jinja2 puedo acceder al dato con la llave del parametro (es diccionario)-->
+        <!--Los diccionarios se interpretan como objetos por eso colocamos user.username-->
+        <h2>Hola, {{user.username}}</h2>
+    </body>
+</html>
